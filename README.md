@@ -56,7 +56,8 @@ I'm an early adopter of AI-augmented development — not just code generation, b
 
 ## 🛠️ Tech Stack
 
-**Languages:** Swift · SwiftUI · Objective-C
+**Languages:** Swift · Objective-C
+**UI:** SwiftUI · UIKit
 **Architecture:** MVVM · Clean Architecture · Modular SPM (39+ modules) · Coordinators · SOLID
 **Concurrency:** async/await · Combine · RxSwift · GCD
 **Testing:** Swift Testing · XCTest · Snapshot Testing · Integration Tests
