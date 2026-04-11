@@ -46,13 +46,19 @@ A weekend idea that turned into an exploration of on-device AI. Take a screensho
 
 ---
 
-## 🤖 AI Tooling
+## 🧭 The AI Journey
 
-I'm an early adopter of AI-augmented development — not just code generation, but architecture, design, testing, CI/CD, and beyond. I've built and open-sourced tools to streamline the workflow:
+AI-augmented development is still new territory for all of us. Over the past year, I've been learning by doing — exploring the possibilities, hitting the limits, and iterating until things work.
 
-**[claude-code-ios-template](https://github.com/buca1821/claude-code-ios-template)** — Reusable Claude Code setup for iOS projects: 12 skills, 4 audit agents, git hooks, rules, and commands.
+SnapGPX has been my main playground. What started as a side project became a full exploration of what's possible when AI participates in every phase of development — not just writing code, but shaping architecture, designing a design system, setting up CI/CD, localizing to 11 languages, and even preparing App Store copy. 318 commits later (90% co-authored with Claude), the codebase has 38K lines of Swift across 194 files, with 93 refactoring passes, 578 tests (unit + UI), and 8 documented rule files that guide how AI and I collaborate.
 
-**[claude-marketplace](https://github.com/buca1821/claude-marketplace)** — Personal plugin marketplace for Claude Code.
+One area where AI has been especially valuable is third-party API integration. Navigating the Strava API and Tesla Fleet API — with their OAuth flows and edge cases — became significantly faster with AI assistance. What used to take days of reading docs and trial-and-error now flows much more naturally.
+
+Along the way, I've gone through several iterations of skills, hooks, agents, and agent teams — learning what works and what doesn't. That experience led me to build **[claude-code-ios-template](https://github.com/buca1821/claude-code-ios-template)** and **[claude-marketplace](https://github.com/buca1821/claude-marketplace)** to package what I've learned into reusable tools.
+
+SmartCharge (105 commits, 125 tests) and PlanToWatch (built in 6 days from idea to working prototype) each taught me something different — from integrating complex third-party APIs with AI assistance to exploring on-device Foundation Models.
+
+This isn't about replacing engineering judgment — it's about amplifying it. The craft still matters. The AI just lets you go further.
 
 ---
 
