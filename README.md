@@ -17,7 +17,7 @@ SnapGPX is a mature, production-ready project I'm preparing for the App Store. S
 ### SnapGPX 📍
 **Export your Apple Health workouts to GPX — individually or in bulk.**
 
-Born from my love for trail running and hiking, SnapGPX lets you visualize routes with gradient polylines, explore elevation charts, merge multi-segment routes into a single track, and export multi-sport workouts to Strava individually. Supports 11 languages. Heading toward App Store release.
+Born from my love for outdoor activities, SnapGPX lets you visualize routes with gradient polylines, explore elevation charts, merge multi-segment routes into a single track, and export multi-sport workouts to Strava individually. Supports 11 languages. Heading toward App Store release.
 
 `iOS 26+` `Swift 6` `SwiftUI` `MVVM` `HealthKit` `MapKit` `Swift Charts` `Strava API`
 
