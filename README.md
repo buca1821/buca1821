@@ -12,6 +12,8 @@ Outside of work, I also build my own projects, driven by two things I care about
 
 > Repos are private — TestFlight builds and demos available on request.
 
+SnapGPX is a mature, production-ready project I'm preparing for the App Store. SmartCharge and PlanToWatch are proof-of-concept explorations to validate the feasibility of each idea.
+
 ### SnapGPX 📍
 **Export your Apple Health workouts to GPX — individually or in bulk.**
 
