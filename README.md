@@ -70,6 +70,8 @@ I'm an early adopter of AI-augmented development — not just code generation, b
 
 ## 📬 Let's connect
 
+I'm always happy to collaborate on meaningful projects where craft and quality matter. I'm especially excited about what AI is bringing to our field — it's changing how we build, and I want to be part of that conversation. Whether it's iOS, AI-augmented development, or just swapping trail stories, feel free to reach out.
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lopmarlu-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/lopmarlu)
 [![Portfolio](https://img.shields.io/badge/Portfolio-buca1821.github.io-000?style=flat&logo=github)](https://buca1821.github.io)
 [![Email](https://img.shields.io/badge/Email-lopmarlu@gmail.com-EA4335?style=flat&logo=gmail)](mailto:lopmarlu@gmail.com)
