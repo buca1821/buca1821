@@ -4,7 +4,7 @@
 
 I spent nearly 10 years at [Ocado Technology](https://www.ocadogroup.com/technology/technology-pioneers), contributing to **Ocado Smart Platform** — a modular, multi-tenant e-commerce platform powering 13 retail partners across 11 markets. There I worked on everything from design systems and monetisation features to large-scale technical migrations (Objective-C → Swift, UIKit → SwiftUI, RxSwift → async/await).
 
-Now I'm building my own projects, driven by two things I care about: **nature and technology**. I use AI as a multiplier across every phase — architecture, design, implementation, testing, localization, and even App Store preparation. It's been a transformative journey.
+Outside of work, I also build my own projects, driven by two things I care about: **nature and technology**. I use AI as a multiplier across every phase — architecture, design, implementation, testing, localization, and even App Store preparation. It's been a transformative journey.
 
 ---
 
