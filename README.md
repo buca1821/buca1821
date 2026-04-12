@@ -21,7 +21,7 @@ Born from my love for outdoor activities, SnapGPX lets you visualize routes with
 
 `iOS 26+` `Swift 6` `SwiftUI` `MVVM` `HealthKit` `MapKit` `Swift Charts` `Strava API`
 
-🧪 Unit tests · UI tests · Accessibility · Design system · CI/CD (GitHub Actions + Xcode Cloud)
+🧪 Unit tests · UI tests · Accessibility · Design system · CI/CD (GitHub Actions + Xcode Cloud)<br>
 🤖 AI-driven development across every phase: architecture, design, implementation, testing, localization, market research, App Store copy
 
 🔗 [snapgpx.github.io](https://snapgpx.github.io)
@@ -64,12 +64,12 @@ This isn't about replacing engineering judgment — it's about amplifying it. Th
 
 ## 🛠️ Tech Stack
 
-**Languages:** Swift · Objective-C
-**UI:** SwiftUI · UIKit
-**Architecture:** MVVM · Clean Architecture · Modular SPM (39+ modules) · Coordinators · SOLID
-**Concurrency:** async/await · Combine · RxSwift · GCD
-**Testing:** Swift Testing · XCTest · Snapshot Testing · Integration Tests
-**Tooling:** Xcode · Git · CI/CD (GitLab CI · GitHub Actions · Xcode Cloud) · Fastlane · SPM
+**Languages:** Swift · Objective-C<br>
+**UI:** SwiftUI · UIKit<br>
+**Architecture:** MVVM · Clean Architecture · Modular SPM (39+ modules) · Coordinators · SOLID<br>
+**Concurrency:** async/await · Combine · RxSwift · GCD<br>
+**Testing:** Swift Testing · XCTest · Snapshot Testing · Integration Tests<br>
+**Tooling:** Xcode · Git · CI/CD (GitLab CI · GitHub Actions · Xcode Cloud) · Fastlane · SPM<br>
 **AI:** Claude Code (skills/hooks/agents/plugins) · Cursor · Gemini CLI · GitHub Copilot
 
 ---
