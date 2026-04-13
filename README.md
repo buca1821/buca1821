@@ -64,14 +64,19 @@ This isn't about replacing engineering judgment — it's about amplifying it. Th
 
 ## 🛠️ Tech Stack
 
-**Languages:** Swift · Objective-C<br>
+**Languages:** Swift · legacy: Objective-C<br>
 **UI:** SwiftUI · UIKit<br>
-**Architecture:** MVVM · Clean Architecture · Modular SPM (50+ feature modules) · Dependency Injection · Coordinators · SOLID<br>
-**Concurrency:** async/await · Combine · RxSwift · GCD<br>
+**Architecture:** MVVM · Clean Architecture · Modular SPM (50+ feature modules) · Dependency Injection · Coordinators<br>
+**Concurrency:** async/await · legacy: Combine · RxSwift · GCD<br>
+**Networking:** URLSession + async/await · Third-party API integration (Strava, Tesla Fleet)<br>
+**Persistence:** UserDefaults · Keychain · SwiftData · Core Data<br>
+**Apple Frameworks:** HealthKit · MapKit · Swift Charts · WorkoutKit · Foundation Models · Vision (OCR)<br>
+**Platform:** Push notifications (APNs) · Deep linking / Universal Links · Biometric auth (FaceID/TouchID) · Advanced localisation (String Catalogs)<br>
+**Analytics:** Firebase Analytics · Crashlytics · VantageSDK<br>
 **Testing:** Swift Testing · XCTest · Snapshot Testing · Integration Tests<br>
-**Tooling:** Xcode · Git · CI/CD (GitLab CI · GitHub Actions · Xcode Cloud) · Fastlane · SPM<br>
-**AI:** Claude Code (skills/hooks/agents/plugins) · Cursor · Gemini CLI · GitHub Copilot<br>
-**Other:** REST APIs · Design Systems · Accessibility · i18n/l10n · A/B Testing
+**Tooling:** Xcode · Git (GitHub, GitLab) · Fastlane · SPM<br>
+**CI/CD:** GitLab CI · GitHub Actions · Xcode Cloud<br>
+**AI:** Claude Code (skills/hooks/agents/plugins) · Cursor · Gemini CLI · GitHub Copilot
 
 ---
 
