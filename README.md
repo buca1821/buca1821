@@ -26,6 +26,30 @@ Born from my love for outdoor activities, SnapGPX lets you visualize routes with
 
 🔗 [snapgpx.github.io](https://snapgpx.github.io)
 
+<details>
+<summary>Architecture & technical details</summary>
+
+```mermaid
+flowchart LR
+    HK[HealthKit] --> WL[Workout List]
+    WL --> WD[Workout Detail]
+    WD --> Map[MapKit\nGradient Polylines]
+    WD --> Chart[Swift Charts\nElevation Profile]
+    WD --> GPX[GPX Export\n+ ZIP bulk]
+    WD --> Strava[Strava API\nOAuth2]
+```
+
+- **Feature-based architecture** with custom design system (semantic tokens for colors, typography, spacing, theming)
+- **HealthKit** async queries via `withCheckedContinuation`
+- **Gradient polylines** for merged multi-segment route visualization
+- **GPX export** with ZIP packaging for bulk exports
+- **Strava OAuth2** integration with individual multi-sport workout export
+- **UI Tests** with Page Object Model pattern + `AccessibilityID` constants
+- **Pre-push hooks** enforcing coverage thresholds (ViewModels ≥85%, Utilities ≥80%)
+- **8 documented rule files** guiding AI-assisted development (localization, git workflow, testing standards, design system, coding patterns, UI testing, CI/CD)
+
+</details>
+
 ### SmartCharge ⚡
 **Intelligent EV charging for Tesla — charge smarter, not harder.**
 
@@ -35,6 +59,26 @@ I wanted my Tesla to charge at the cheapest hours without me having to think abo
 
 🧪 125 unit tests · Zero external dependencies
 
+<details>
+<summary>Architecture & technical details</summary>
+
+```mermaid
+flowchart LR
+    PVPC[PVPC API\nElectricity Prices] --> Price[Price Engine\nMulti-region]
+    Price --> Predict[Prediction\n4-week rolling avg]
+    Predict --> Sched[Smart Scheduler]
+    Sched --> Tesla[Tesla Fleet API\nOAuth PKCE]
+    Tesla --> Vehicle[Vehicle Commands\nStart/Stop Charge]
+```
+
+- **Tesla Fleet API** end-to-end: OAuth PKCE + tokens in Keychain + Vehicle Command Protocol via proxy
+- **Auto wake-up** with retry logic when the vehicle is offline
+- **PVPC multi-region** pricing: Peninsula, Canary Islands, Balearic Islands, Ceuta, Melilla
+- **Price prediction** using 4-week rolling average from historical data
+- **Zero external dependencies** — pure Apple frameworks only
+
+</details>
+
 ### PlanToWatch ⌚
 **From natural language to Apple Watch Custom Workouts.**
 
@@ -43,6 +87,28 @@ A weekend idea that turned into an exploration of on-device AI. Take a screensho
 `Swift 6` `SwiftUI` `WorkoutKit` `Foundation Models` `Vision OCR`
 
 🧠 On-device AI with `@Generable` + greedy sampling · Parser escalation: Foundation Models → Claude Haiku → (future) Gemma 4 via MLX Swift
+
+<details>
+<summary>Architecture & technical details</summary>
+
+```mermaid
+flowchart LR
+    Input[Screenshot\nCamera\nText] --> OCR[Vision OCR\nES + EN]
+    OCR --> FM[Foundation Models\n@Generable + greedy]
+    FM -->|fallback| Haiku[Claude Haiku API]
+    Haiku -->|future| Gemma[Gemma 4\nMLX Swift]
+    FM --> WK[WorkoutKit]
+    Haiku --> WK
+    WK --> Watch[Apple Watch\nCustom Workout]
+```
+
+- **Parser escalation strategy**: 3 levels — on-device Foundation Models (free) → Claude Haiku API (fallback) → future Gemma 4 via MLX Swift
+- **`@Generable` structs** with `@Guide` constraints using `anyOf()` and `.range()` for structured output
+- **Greedy sampling** for deterministic, reproducible parsing
+- **Two workout types**: intervals (sets + recovery periods) and continuous (steady-state distance goals)
+- **Vision OCR** with bilingual support (Spanish + English)
+
+</details>
 
 ---
 
