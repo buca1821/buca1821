@@ -50,7 +50,7 @@ A weekend idea that turned into an exploration of on-device AI. Take a screensho
 
 AI-augmented development is still new territory for all of us. Over the past year, I've been learning by doing — exploring the possibilities, hitting the limits, and iterating until things work.
 
-SnapGPX has been my main playground. What started as a side project became a full exploration of what's possible when AI participates in every phase of development — not just writing code, but shaping architecture, designing a design system, setting up CI/CD, localizing to 11 languages, and even preparing App Store copy. 318 commits later (90% co-authored with Claude), the codebase has 38K lines of Swift across 194 files, with 93 refactoring passes, 578 tests (unit + UI), and 8 documented rule files that guide how AI and I collaborate.
+SnapGPX has been my main playground. What started as a side project became a full exploration of what's possible when AI participates in every phase of development — not just writing code, but shaping architecture, designing a design system, setting up CI/CD, localizing to 11 languages, and even preparing App Store copy. 318 commits later, the codebase has 38K lines of Swift across 194 files, with 93 refactoring passes, 578 tests (unit + UI), and 8 documented rule files that guide how AI and I collaborate.
 
 One area where AI has been especially valuable is third-party API integration. Navigating the Strava API and Tesla Fleet API — with their OAuth flows and edge cases — became significantly faster with AI assistance. What used to take days of reading docs and trial-and-error now flows much more naturally.
 
@@ -64,12 +64,12 @@ This isn't about replacing engineering judgment — it's about amplifying it. Th
 
 ## 🛠️ Tech Stack
 
-**Languages:** Swift · legacy: Objective-C<br>
+**Languages:** Swift · Objective-C (legacy)<br>
 **UI:** SwiftUI · UIKit<br>
 **Architecture:** MVVM · Clean Architecture · Modular SPM (50+ feature modules) · Dependency Injection · Coordinators<br>
-**Concurrency:** async/await · legacy: Combine · RxSwift · GCD<br>
+**Concurrency:** async/await · Combine · RxSwift (legacy) · GCD<br>
 **Networking:** URLSession + async/await · Third-party API integration (Strava, Tesla Fleet)<br>
-**Persistence:** UserDefaults · Keychain · SwiftData · Core Data<br>
+**Persistence:** UserDefaults · Keychain<br>
 **Apple Frameworks:** HealthKit · MapKit · Swift Charts · WorkoutKit · Foundation Models · Vision (OCR)<br>
 **Platform:** Push notifications (APNs) · Deep linking / Universal Links · Biometric auth (FaceID/TouchID) · Advanced localisation (String Catalogs)<br>
 **Analytics:** Firebase Analytics · Crashlytics · VantageSDK<br>
